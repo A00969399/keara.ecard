@@ -1,0 +1,378 @@
+/*Page1*/
+
+#page1 {
+    width: 1090px;;
+    height: 770px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#bg {
+    width: 1090px;
+    height: 770px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#rb {
+    width: 700px;
+    position: absolute;
+    top: 470px;
+    left: 90px;
+    transition: top 2s;
+}
+
+#cloud1 {
+     width: 1090px;;
+    height: 770px;
+    position: absolute;
+    bottom: -121px;   
+}
+#cloud2 {
+    width: 1090px;;
+    height: 770px;
+    position: absolute;
+    bottom: -296px;
+    
+}
+
+#title {
+    width: 390px;
+    position: absolute;
+    top: 70px;
+    left: 672px;   
+}
+
+#grass {
+    width: 1090px;;
+    height: 770px;
+    position: absolute;
+    bottom: -710px;
+    left: -1px;
+}
+
+#bunny {
+    width: 260px;
+    position: absolute;
+    top: 420px;
+    left: 420px; 
+    transition: top 1s;
+}
+
+#basket {
+    width: 410px;
+    position: absolute;
+    top: 350px;
+    left: 380px;   
+}
+
+#seed {
+    width: 60px;
+    position: absolute;
+    bottom: -50px;
+    right: 230px; 
+    z-index: 30;
+}
+
+#seed2 {
+    width: 70px;
+    position: absolute;
+    bottom: -50px;
+    right: 140px;
+    z-index: 2;
+}
+
+#seed3 {
+    width: 50px;
+    position: absolute;
+    bottom: -50px;
+    right: 68px; 
+    z-index: 4;
+}
+
+#choco {
+    width: 150px;
+    position: absolute;
+    bottom: -40px;
+    left: 240px;
+    z-index: 1;
+}
+.chocoAnimate {
+    animation-name: wiggle;
+}
+
+#bite {
+    width: 28px;
+    position: absolute;
+    bottom: 150px;
+    left: 318px;
+    z-index: 5;
+}
+
+#egg1 {
+    width: 112px;
+    position: absolute;
+    bottom: -65px;
+    left: 350px;
+    z-index: 2;
+
+} 
+
+@keyframes wiggle {
+	0% {
+		transform: rotate(0deg);
+	}
+	33% {
+		transform: rotate(5deg);
+	}
+	66% {	
+		transform: rotate(-5deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+#egg2 {
+    width: 110px;
+    position: absolute;
+    bottom: -65px;
+    left: 256px;
+    z-index: 20;
+}
+.egg2 {
+    animation-name: bounce;
+    animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+
+}
+#chic {
+    width: 105px;
+    position: absolute;
+    bottom: -49px;
+    left: 149px;
+}
+
+#bottom {
+    width: 115px;
+    position: absolute;
+    bottom: -55px;
+    left: 148px;
+}
+
+#top{
+    width: 114px;
+    position: absolute;
+    bottom: 6px;
+    left: 148px;
+    opacity: 1;
+    transition: left 1s, bottom 1s, opacity 1s;
+}
+.topAnimate {
+    animation-name: topAnimation;
+    animation-duration: 2s;
+}
+@keyframes topAnimation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-50deg);}
+} 
+#tulip1 {
+    width: 80px;
+    position: absolute;
+    bottom: -50px;
+    right: 215px;
+    transition: top 1s, opacity 2s;
+    opacity: 0;
+}
+
+#tulip2 {
+    width: 80px;
+    position: absolute;
+    bottom: -50px;
+    right: 120px;
+    opacity: 0;
+    z-index: 1;
+    transition: top 1s, opacity 2s;
+    
+}
+
+#tulip3 {
+    width: 68px;
+    position: absolute;
+    bottom: -50px;
+    right:50px;
+    opacity: 0;
+    z-index: 2;
+    transition: top 1s, opacity 2s;
+}
+/*Speech Bubbles*/
+
+#bubble1 {
+    width: 320px;
+    position: absolute;
+    left: 0px;
+    top: 380px;
+    opacity: 0; 
+    z-index: 2;
+}
+
+#bubble2 {
+    width: 320px;
+    position: absolute;
+    left: 510px;
+    top: 150px;
+    opacity: 0;
+    z-index: 3;
+ 
+}
+
+#bubble3 {
+    width: 320px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    opacity: 0;
+    
+}
+
+#bubble4 {
+    width: 320px;
+    position: absolute;
+    left: 140px;
+    top: 199px;
+    opacity: 0;
+}
+
+#bubble5 {
+    width: 320px;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    opacity: 0;
+
+    
+}
+
+#bubble6 {
+    width: 320px;
+    position: absolute;
+    left: 750px;
+    top: 420px;
+    opacity: 0;
+
+}
+
+#bubble7 {
+    width: 320px;
+    position: absolute;
+    left: 770px;
+    top: 150px;
+    opacity: 0;
+    z-index: 11;
+    
+}
+
+
+
+
+/*Page 2*/
+
+#page2 {
+    width: 1090px;;
+    height: 870px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    z-index: -10;
+  
+}
+
+#bg2 {
+    background-color: #FFC8E3;
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 9.7%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+
+    
+#happy{
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    z-index: 1;
+    
+}
+#easter {
+    width: 70%;
+    position: absolute;
+    top: 390px;
+    left: 160px; 
+    z-index: 1;
+}
+
+#barrow {
+    width: 100px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    z-index: 1;
+}
+
+#bubble8 {
+    width: 320px;
+    position: absolute;
+    left: 750px;
+    top: 10px;
+    opacity: 0;
+    z-index: 6;
+
+}
+
+#bubble9 {
+    width: 320px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    opacity: 0;
+    z-index: 6;
+
+}
+
+#bubble10 {
+    width: 320px;
+    position: absolute;
+    left: 710px;
+    top: 620px;
+    opacity: 0;
+    z-index: 10;
+
+}
+
+/*Falling flowers*/
+
+.fall {
+    position: absolute;
+    top: 0%;
+}
+
+
